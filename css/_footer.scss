@@ -1,0 +1,122 @@
+footer{
+    background-color: #111111;
+    padding-top: 10rem;
+
+    .inner-f{
+        width: 85%;
+        margin: auto;
+
+        .first-f{
+            display: flex;
+            justify-content: space-between;
+            ul{
+                text-decoration: none;
+
+                h3{
+                    font-size: 1.6rem;
+                    font-family: 'Lato';
+                    margin-bottom: 1.5rem;
+                }
+                .strk{
+                    content: "";
+                    width: 20px;
+                    height: 1px;
+                    background: #fa6d18;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-top: -3px;
+                    margin-left: 0.5rem;
+                }
+                li{
+                    font-size: 2.3rem;
+                    font-family: sans-serif;
+                    list-style: none;
+                    padding: 0.1rem 0;
+
+                    a{
+                        text-decoration: none;
+                        color: #747474;
+                        transition: 300ms ease-in-out;
+                    }
+                    a:hover{
+                        color:#fa6d18;
+                    }
+                }
+            }
+        }
+
+        .address{
+            text-align: center;
+            width: 35rem;
+            //flex: 0.5;
+            h2{
+                color: #fff;
+                font-size: 4.5rem;
+                font-family: 'Bangers';
+            }
+            p{
+                font-family: sans-serif;
+                font-size: 1.5rem;
+                color: #747474;
+                padding: 0.3rem;
+            }
+        }
+
+        .subscribe{
+            width: 35rem;
+            h3{
+                font-size: 1.6rem;
+                font-family: 'Lato';
+                margin-bottom: 1.5rem;
+            }
+            p{
+                font-family: sans-serif;
+                font-size: 1.5rem;
+                color: #747474;
+                padding: 0.3rem;
+            }
+            form{
+                justify-content: center;
+
+                input{
+                    width: 50%;
+                    height: 5rem;
+                    margin: 2rem 0;
+                    background-color: #272727;
+                    border: none;
+                    font-size: 1.5rem;
+                    padding: 0 2rem;
+                }
+                input:focus {
+                    border: none;
+                }
+            
+                .s-btn{
+                    font-size: 1.5rem;
+                    font-family: 'Lato';
+                    background-color:#ff6600;
+                    height: 5rem;   
+                    border: none;
+                    padding: 0 1.6rem;
+                    padding-top: 0;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+
+        .second-f{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid rgb(59, 59, 59);
+            margin-top: 10rem;
+            padding: 4rem 0;
+
+            p{
+                font-size: 1.4rem;
+                font-family: 'Lato';
+                color: #919191;
+            }
+        }
+    }
+}

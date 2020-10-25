@@ -1,0 +1,107 @@
+.top-sales{
+    background-color: rgb(248, 247, 247);
+    padding: 4rem 0;
+    padding-bottom: 10rem;
+    margin-top: 10rem;
+
+    h2{
+        color: #252525;
+        font-family: 'Lato';
+        font-size: 3rem;
+        text-align: center;
+        padding: 3rem;
+        padding-bottom: 0.5rem;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 4rem;
+        a{
+            font-family: 'Roboto';
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #7e7e7e;
+        }
+       
+    }
+    .top-sale-items{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        
+
+        .inner-item{
+            margin: 0 0.5rem;
+            
+            img{
+                width: 100%;
+                height: 80%;
+            }
+            p{
+                font-size: 1.5rem;
+                font-family: 'Lato';
+                color: #494949;
+                padding:1rem;
+            }
+
+        }
+
+    }
+
+
+}
+
+/*in ads*/
+.in-ads{
+    margin-top: 10rem;
+    .ads-img-bg{
+        width: 80%;
+        margin: auto;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .inner-ads{
+            position: absolute;
+            top:15%;
+            left: 5%;
+
+            h3{
+                font-family: 'Lato';
+                font-size: 3rem;
+                margin-bottom: 2rem;
+            }
+            h2{
+                font-family: 'Lato';
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+            }
+            button{
+                width: 14rem;
+                padding:2rem 2rem;
+                border: none;
+                background-color: #ffff;
+                color: #000;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.item-a { width:25.3rem;}
+.item-b { width:25.3rem;}
+.item-c { width:25.3rem;}
+.item-d { width:25.3rem;}
+.item-e { width:25.3rem;}
+.item-f { width:25.3rem;}
+.item-g { width:25.3rem;}
+.item-h { width:25.3rem;}
+.item-i { width:25.3rem;}
+
+@media (max-width: 768px) {
+    .item-a { width:100px; }
+    .item-b { width:240px; }
+    .item-c { width:190px; }
+    .item-d { width:120px; }
+    .item-e { width:250px; }
+}
